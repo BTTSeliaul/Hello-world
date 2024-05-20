@@ -1,4 +1,0 @@
-<!--pages/cug/cug.wxml-->
-<viwe class="cug">
-<web-view src="https://sfrz.cug.edu.cn/tpass/login"></web-view>
-</viwe>
