@@ -1,0 +1,10 @@
+<view class="container"> 
+    <!--按钮--> 
+    <view class="loginBtnView"> 
+      <button class="loginBtn" type="primary" size="{{primarySize}}" 
+loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" 
+bindtap="login">导入</button> 
+    </view> 
+</view> 
+
+

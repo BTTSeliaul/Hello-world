@@ -1,0 +1,17 @@
+<view class="container">
+  <!-- 输入框 -->
+  <input placeholder="输入日程内容" bindinput="getInputText" />
+
+  <!-- 选择节数 -->
+  <view class="section-list">
+    <picker mode="selector" range="{{sectionRange}}" value="{{startSectionIndex}}" bindchange="startSectionChange">
+      <view class="start-section">开始节数：{{sectionRange[startSectionIndex]}}</view>
+    </picker>
+    <picker mode="selector" range="{{sectionRange}}" value="{{endSectionIndex}}" bindchange="endSectionChange">
+      <view class="end-section">结束节数：{{sectionRange[endSectionIndex]}}</view>
+    </picker>
+  </view>
+</view>
+<!-- 保存按钮 -->
+<button class="save-btn" bindtap="saveButton">保存</button>
+<button class="fan-btn" bindtap="fp">取消</button>
