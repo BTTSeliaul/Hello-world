@@ -1,0 +1,12 @@
+
+.face {
+  width: 150rpx;
+  height: 150rpx ;
+  border-radius: 50%;
+}
+.nickName {
+  margin-top: 30rpx;
+}
+.warp {
+  text-align: center;
+}
